@@ -1,5 +1,5 @@
 {
-  "name": "DecisionSurveyWeb",
+  "name": "decision-survey",
   "private": true,
   "scripts": {
     "build": "turbo build",
