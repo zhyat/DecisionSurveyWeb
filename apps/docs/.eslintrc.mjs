@@ -1,9 +1,9 @@
 /** @type {import("eslint").Linter.Config} */
-module.exports = {
+export default {
   root: true,
-  extends: ["@decision-survey/shared/eslint/next.js"],
+  extends: ["@decision-survey/shared/eslint/react-internal.js"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
-    project: true,
+    project: true
   },
 };

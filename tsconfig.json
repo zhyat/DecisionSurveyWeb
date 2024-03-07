@@ -1,3 +1,0 @@
-{
-  "extends": "@decision-survey/shared/tsconfig/base.json"
-}

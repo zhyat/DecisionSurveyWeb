@@ -1,0 +1,10 @@
+{
+  "extends": "@decision-survey/shared/tsconfig/package-base",
+  "compilerOptions": {
+      "jsx": "react",
+      "rootDir": "src",
+      "outDir": "lib/types"
+  },
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "include": ["src"]
+}
