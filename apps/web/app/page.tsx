@@ -1,4 +1,4 @@
-import { Panel } from "@decision-survey/layout";
+import { Panel } from "@decision-survey/form-editor";
 
 
 

@@ -1,5 +1,5 @@
 {
-  "name": "@decision-survey/layout",
+  "name": "@decision-survey/form-editor",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -15,10 +15,15 @@
   "module": "./lib/es/index.js",
   "types": "./lib/types/index.d.ts",
   "dependencies": {
+   
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    
     "@decision-survey/shared": "workspace:*",
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
